@@ -1,0 +1,25 @@
+
+body{
+    background-image: url(imagens/wallpaper002.jpg);
+}
+
+.quadrado{
+    display: inline-block;
+    border: 2px solid black;
+    background-color: grey;
+    width: 200px;
+    height: 175px;
+    margin-right: 10px;
+}
+
+#q1{
+    background-color: aliceblue;
+}
+
+#q2{
+    background-image: linear-gradient(to right, aliceblue , lightblue);
+}
+
+#q3{
+    background-image: url(imagens/wallpaper002.jpg);
+}
