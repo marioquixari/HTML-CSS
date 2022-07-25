@@ -1,0 +1,68 @@
+@media screen and (max-width:1020px) {
+
+    :root{
+        --cordefundo:#201b2c;
+        --corde30:#2f2841;
+        --corde10: #77ffc0;
+        --cordoboneco : #B06668;
+        --cordefundodocard: #514869;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        margin:0 auto
+    }
+    
+    nav{
+        text-align: center;
+        margin-top: 30px;
+       
+        
+
+    }
+
+    #special{
+        border: 2px solid var(--cordefundodocard);
+        padding: 10px;
+        
+    }
+
+    #login-alternativo{
+        text-align: center;
+    }
+
+    article {
+       display: flex;
+       flex-direction: column;
+       margin-bottom: 20px;
+    }
+
+    article h2{
+        text-align: center;
+        line-height: 1px;
+    
+        font-size: 1.8em;
+        
+        
+        
+
+    }
+
+    img{
+      display: none;
+       
+
+    }
+
+    form{
+        padding: 20px;
+        margin-bottom: 20px;
+        max-width: 50vh;
+       
+    }
+
+
+
+
+}
