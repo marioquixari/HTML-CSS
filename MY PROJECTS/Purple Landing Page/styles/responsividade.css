@@ -1,0 +1,54 @@
+@media screen and (max-width: 1070px) {
+    header{
+        flex-direction: column;
+    }
+
+    header h1{
+        text-align: center;
+    }
+
+    #border{
+        display: block;
+        text-align: center;
+        padding: 3px;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10px;
+       
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    aside h2{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    aside p {
+        text-align: justify;
+        text-align: center;
+        margin: 0 auto
+
+    }
+
+    form{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 50%;
+
+    }
+
+    form [type = "submit"]{
+        
+    }
+
+    img{
+        display: none;
+    }
+
+
+
+
+}
