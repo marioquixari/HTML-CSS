@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:  'Passion One';
+    --fonte3: 'Sriracha';
+    
+}
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;       
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-family: var(--fonte2);
+    text-align: center;
+    line-height: 10px;
+    padding: 40px;
+    
+}
+
+header h1{
+    font-size:7vw;
+    text-transform: uppercase;
+    
+   
+    
+    
+}
+.up{
+    font-size: 1.2em;
+}
+
+header p, footer p {
+    color: white;
+    font-family: var(--fonte1);
+}
+
+a{
+    color: white;
+    font-weight: bolder;
+}
+
+main p{
+    
+    font-family: var(--fonte3);
+    font-size: 4vw;
+    margin: 50px;
+    
+    padding: 10px;
+    
+    
+}
+
+aside{
+    background-color: rgb(66, 63, 63);
+    background-position: right bottom;
+    padding-top: 10vw; 
+    padding-left: 3vw;
+    padding-bottom: 10vw;
+    padding-right: 46vw;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+aside p {
+    padding: 0px;
+    margin: 0px;
+    background-color:#031a03a4;
+    color: white;
+
+
+}
+
+#flower{
+    background-image: url(imagens/background001.jpg);
+}
+
+#journal{
+    background-image: url(imagens/background002.jpg);
+    
+}
+
+#journalbgc{
+    background-color: #5f665ca4;
+
+}
+
+footer{
+    background-color: black;
+    padding-top: 1px;
+    padding: 2px ;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+}
